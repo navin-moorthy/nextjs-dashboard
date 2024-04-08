@@ -36,6 +36,7 @@ async function seedUsers(client) {
 
     console.log(`Seeded ${insertedUsers.length} users`);
 
+
     return {
       createTable,
       users: insertedUsers,
